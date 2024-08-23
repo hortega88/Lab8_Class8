@@ -42,7 +42,7 @@ document
     } while (isNaN(number) || number < 21 || number > 99);
 
     const listContainer = document.getElementById("list-container");
-    listContainer.innerHTML = ""; // Clear any existing list
+    listContainer.innerHTML = "";
 
     const ul = document.createElement("ul");
 
